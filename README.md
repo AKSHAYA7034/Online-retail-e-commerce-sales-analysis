@@ -25,6 +25,15 @@ This project explores the online retail dataset which is based on uk e-commerce 
   * Country-Level sales distribution
   * Revenue contribution by customer segments
     Visualisations are created by using Pandas, Matplotlib, and seaborn.
+    
+## Libraries used:
+This project uses the following Python libraries:
+* **pandas** – data cleaning and manipulation
+* **numpy** – numerical operations
+*  **matplotlib** – visualisation and plotting
+*   **seaborn** – statistical visualisation
+*   **datetime** – handling date/time values  
+
 
 ## Dataset information
 Original dataset contain transcations from 2009-2010 and 2010-2011 for the comparison analysis. sample dataset containing  both 2009-2010 and 2010-2011 transactions (5030 rows with all original columns) has been uploaded because the full dataset exceeds GitHub's file size limits.  The original dataset can be downloaded from UCI Machine Learning Repository :  https://archive.ics.uci.edu/dataset/502/online+retail+ii
