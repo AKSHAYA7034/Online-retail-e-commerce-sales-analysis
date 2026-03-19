@@ -8,7 +8,7 @@ This project explores the online retail dataset which is based on uk e-commerce 
 * Perform exploratory data analysis (EDA) to identify trends and patterns
 * Generate insights relevent to retail and e-commerce decision- making
 
-  ## Data Cleaning and Preprocessing
+## Data Cleaning and Preprocessing
   key step perdormed in the notebook:
   * Converting InvoiceData to datetime
   * Fixing numeric columns (quantity, price)
@@ -17,7 +17,7 @@ This project explores the online retail dataset which is based on uk e-commerce 
   * creating new fields such as : TotalPrice , InvoiceYear Month, RevenuePerInvoice
     The cleaned data is saved and included in the Data folder
 
-    ## Exploratory Data Analysis (EDA)
+ ## Exploratory Data Analysis (EDA)
   The analysis covers:
   * Monthly revenue trends
   * Top-selling products
@@ -26,7 +26,7 @@ This project explores the online retail dataset which is based on uk e-commerce 
   * Revenue contribution by customer segments
     Visualisations are created by using Pandas, Matplotlib, and seaborn.
 
-    ## Dataset information
+## Dataset information
 Original dataset contain transcations from 2009-2010 and 2010-2011 for the comparison analysis. sample dataset containing  both 2009-2010 and 2010-2011 transactions (5030 rows with all original columns) has been uploaded because the full dataset exceeds GitHub's file size limits.  The original dataset can be downloaded from UCI Machine Learning Repository :  https://archive.ics.uci.edu/dataset/502/online+retail+ii
 
 ## Skills Demonstrated 
@@ -35,3 +35,17 @@ Original dataset contain transcations from 2009-2010 and 2010-2011 for the compa
 * Feature engineering
 * Data visualisation
 * Insight generation
+
+## Insights from Overall project
+
+* The business works in a low-price, high-volume retail setting, and quantity sold rather than price—drives much of its revenue.
+* The majority of revenue comes from UK clients, with a few other nations contributing somewhat but significantly.
+* The remaining products create a lengthy tail of specialist commodities, with a limited number serving as core income drivers.
+* With distinct peak months and hours, there is obvious seasonality and growth over time.
+
+## Recommendation for the bussiness
+
+* Priorities inventory and promotions for top selling products
+* Build loyality or volume based offers for bulk buyers
+* Explore growth opportunities in non-UK markets
+* Align marketing outliers to identify key customers or data corrections
